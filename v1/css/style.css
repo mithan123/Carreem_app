@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+body{
+  background-image: url("http://4hdwallpapers.com/wp-content/uploads/2015/12/sport-cars-wallpaper-tesla_roadster_sports_car-wide2.jpg");
+}
+.group-menu{
+  list-style:none;
+}
+.group-menu .disable-click{
+  pointer-events: none;
+  background-color: #fc4f4f;
+  border: 1px solid #333;
+  -webkit-box-shadow: 0px 1px 1px 1px #adadad;
+  box-shadow: 0px 1px 1px 1px #adadad;
+}
+.group-menu li{
+  display: inline-block;
+  width: 24%;
+  line-height: 50px;
+  text-align: center;
+  font-family: 'Lobster', sans-serif;
+  letter-spacing: 1px;
+  font-size: 22px;
+  cursor: pointer;
+  color: #FFFFF0;
+  background-color: #21253c;
+  -webkit-transition: color.3s;
+  -moz-transition: color.3s;
+  -ms-transition: color.3s;
+  -o-transition: color.3s;
+  transition: color.3s;
+}
+.group-menu li:hover{
+  color: #1abc9c;
+}
+#clients-list .tabs-wrap {
+  display: none;
+  width: 100%;
+  height: 400px;
+}
+#clients-list .tabs-wrap.active{
+  display: block;
+}
+#clients-list .tabs-wrap:nth-child(1){
+  background: #2980b9;
+  background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);
+  background: linear-gradient(to right, #2c3e50, #2980b9);
+}
+#clients-list .tabs-wrap:nth-child(2){
+  background: #11998e;
+background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+background: linear-gradient(to right, #38ef7d, #11998e);
+}
+#clients-list .tabs-wrap:nth-child(3){
+background: #000428;
+background: -webkit-linear-gradient(to right, #004e92, #000428);
+background: linear-gradient(to right, #004e92, #000428);
+}
+#clients-list .tabs-wrap:nth-child(4){
+background: #43cea2;
+background: -webkit-linear-gradient(to right, #185a9d, #43cea2);
+background: linear-gradient(to right, #185a9d, #43cea2);
+}
+.share-wrap{
+  display: block;
+  margin: 30px auto;
+  padding: 15px;
+  border: 1px solid rgba(255,255,255, 0.4);
+  text-align: center;
+}
+.share-btn{
+  color: #FFFFF0;
+  padding: 10px 18px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 100;
+  font-size: 14px;
+  font-family:'Lobster', sans-serif;
+  background-color: rgba(63, 173, 168, .8);
+  text-transform: uppercase;
+  border-radius: 5px;
+  transition: background-color .5s;
+  -webkit-transition: background-color .5s;
+  -moz-transition: background-color .5s;
+  -o-transition: background-color .5s;
+}
+.share-btn:hover{
+   color: #FFFFF0;
+  text-decoration: none;
+   background-color: rgba(63, 173, 168, 1.0);
+}
+
+.resp-sharing-button__link,
+.resp-sharing-button__icon {
+  display: inline-block
+}
+.resp-sharing-button__link {
+  text-decoration: none;
+  color: #fff;
+  margin: 2px;
+}
+.resp-sharing-button {
+  border-radius: 5px;
+  transition: 25ms ease-out;
+  padding: 6px 9px;
+  transition: background-color .5s;
+  -webkit-transition: background-color .5s;
+  -moz-transition: background-color .5s;
+  -o-transition: background-color .5s;
+}
+.resp-sharing-button__icon svg {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.4em;
+  vertical-align: top
+}
+.resp-sharing-button--small svg {
+  margin: 0;
+  vertical-align: middle
+}
+/* Non solid icons get a stroke */
+.resp-sharing-button__icon {
+  stroke: #fff;
+  fill: none
+}
+/* Solid icons get a fill */
+.resp-sharing-button__icon--solid,
+.resp-sharing-button__icon--solidcircle {
+  fill: #fff;
+  stroke: none
+}
+.resp-sharing-button--facebook {
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+.resp-sharing-button--facebook:hover,
+.resp-sharing-button--facebook:active {
+  background-color: #2d4373;
+  border-color: #2d4373;
+}
+.resp-sharing-button--twitter {
+  background-color: #55acee;
+  border-color: #55acee;
+}
+.resp-sharing-button--twitter:hover,
+.resp-sharing-button--twitter:active {
+  background-color: #2795e9;
+  border-color: #2795e9;
+}
+.resp-sharing-button--linkedin {
+  background-color: #0077b5;
+  border-color: #0077b5;
+}
+.resp-sharing-button--linkedin:hover,
+.resp-sharing-button--linkedin:active {
+  background-color: #046293;
+  border-color: #046293;
+}
+.marg_top{
+  margin-top: 60px;
+}
+@media only screen and (max-width: 568px){
+  .group-menu li {font-size:14px;}
+}
